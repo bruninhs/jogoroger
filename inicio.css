@@ -1,0 +1,24 @@
+.text {
+    font-family: 'Skranji', cursive;;
+}
+
+.circle-mask {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+    border: 2px solid hsl(21, 85%, 47%);;
+  }
+  
+  .circle-mask img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Para garantir que a imagem fique acima do texto */
+  }
+  
